@@ -1,0 +1,734 @@
+body{
+    background-color: #FFF;
+    margin: 0;
+
+    font-family: Raleway;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 14px;
+    color: #6c7279;
+    scroll-behavior: smooth;
+    
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    color: #050c2b;
+}
+
+p{
+    margin: 0 0 10px;
+}
+
+/* Container
+===============*/
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container2{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    
+    
+}
+
+
+
+/* Header
+===============*/
+
+.header{
+    width: 100%;
+    height: 100px;
+    
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+    
+    background: url(img/INTRO\ 2.jpg) center no-repeat;
+    padding: 10px;
+    position: fixed;
+    
+    
+    
+}
+
+
+
+
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 0; 
+    align-items: center;
+    
+    
+    
+}
+
+
+.logo{
+    text-transform: uppercase;
+    cursor: pointer;
+    flex-wrap: wrap;
+    font-weight: 700;
+    
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.9;
+    line-height: 1.5;
+
+}
+
+
+
+
+
+.logo:hover{
+    opacity: 1;
+}
+
+
+
+
+/* Nav
+===============*/
+
+.nav{
+    display: flex;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.nav__link{
+    margin-left: 50px;
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.75;
+    transition: opacity .1s linear;
+    
+}
+
+.nav__link:hover{
+    opacity: 1;
+}
+
+/* Intro
+===============*/
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 750px;
+    background: #050c2b;
+    padding-top: 100px;
+    background: url("img/intro2507.jpg") center no-repeat;
+    text-align: center;
+    
+}
+
+.intro__inner{
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+.intro__title{
+    margin: 0;
+
+    line-height: 1.1;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #FFF;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.intro__subtitle{
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+ 
+
+/* Иконки
+===============*/
+
+.features {
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 0;
+
+}
+
+.faculties__icon2{
+    width: 200px;
+}
+
+.faculties__icon2:hover{
+    padding: 5px;
+    transition: all 0.1s;
+}
+
+
+.features__item {
+    width: 33.33333%;
+    padding: 0 10px;
+    margin: 15px 0;
+    text-align: center;
+    
+}
+
+.features__icon {
+    margin-bottom: 15px;
+    
+}
+
+.features__title{
+    
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #050c2b;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.features__title:hover{
+    color: #007bff;
+}
+
+.features__text {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6c7279;
+}
+
+
+.f__links{
+    text-decoration: none;
+}
+/* Фотографии колледжа
+===============*/
+
+.works {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.works__item {
+    width: 25%;
+    height: 350px;
+
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+
+    position: relative;
+    overflow: hidden;
+    
+}
+
+
+
+.works__photo {
+    min-width: 100%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+
+    transform: translate3d(-50%, -50%, 0);
+    
+}
+
+/* Раздел с новостями
+===============*/
+
+.news{
+    max-width: 800px;
+}
+
+
+
+
+
+/* Раздел с абитуриентами в главной странице
+===============*/
+
+.h1_ab{
+    color: #050c2b;
+    margin: 20px;
+    margin-left: 550px;
+    margin-top: 100px;
+    font-size: 40px;
+    
+}
+
+.p_ab{
+    font-size: 26px;
+    margin-left: 550px;
+    line-height: 1.5;
+    margin-bottom: 130px;
+    
+}
+
+
+
+
+
+/* Стилизация фото в разделе факультеты
+===============*/
+
+.faculties__icon{
+    width: 270px;
+    margin-top: 70px;
+}
+
+.faculties__icon:hover{
+    width: 280px;
+    transition: all 0.1s;
+}
+
+.main__title{
+    margin-top: 190px;
+    
+    
+    color: #050c2b;
+}
+
+.under__title{
+
+    font-weight: 700;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+
+
+.sub__title{
+    color: #050c2b;
+    text-align: left;
+    margin-top: 20px;
+    width: 50%;
+   
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 120px;
+    line-height: 1.5;
+
+
+}
+
+.img__faculties{
+    width: 40%;
+    
+    
+}
+
+
+/* Общежитие
+===============*/
+
+.hostel__img{
+    width: 35%;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    
+}
+
+.hostel__img2{
+    width: 90%;
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+
+
+
+.hostel__txt{
+    font-size: 25px;
+    
+    color: #050c2b;
+    margin-bottom: -60px;
+}
+
+/* Абитуриенту
+===============*/
+
+.mission__target{
+    margin-top: 120px;
+    color: #050c2b;
+    text-align: center;
+    font-size: 35px;
+}
+
+.mission{
+    color: #050c2b;
+    margin-top: 30px;
+}
+
+.mission p{
+    font-size: 25px;
+    width: 45%;
+    margin-top: 10px;
+}
+
+.strategy__target{
+    color: #050c2b;
+    margin-top: 30px;
+    width: 50%;
+    
+    
+}
+
+.strategy__target p{
+    font-size: 25px;
+
+    
+}
+
+.img__abt{
+    width: 520px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    
+}
+
+.img__abt2{
+    width: 520px;
+    
+    margin-right: 10px;
+    margin-top: 70px;
+
+}
+
+.perspective{
+    color: #050c2b;
+    margin-left: 630px;
+    margin-top: -280px;
+}
+
+.perspective_1{
+    font-size: 25px;
+    color: #050c2b;
+    margin-left: 630px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.priem{
+    color: #050c2b;
+    
+}
+
+.priem2{
+    color: #050c2b;
+    font-size: 25px;
+    margin-top: 120px;
+    line-height: 1.5;
+    text-align: center;
+}
+.priem3{
+    color: #050c2b;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+}
+.priem4{
+    color: #050c2b;
+    font-size: 20px;
+    text-indent: 2%;
+    margin-bottom: -0px;
+}
+
+
+/* Раздел с цитатой
+===============*/
+
+.reviews {
+    margin-top: 80px;
+    overflow: hidden;
+    background-color: #050c2b;
+}
+
+.reviews__item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.reviews__photo {
+    width: 50%;
+    height: 500px;
+    position: relative;
+}
+
+.reviews__img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+
+    transform: translateY(-50%);
+}
+
+.reviews__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding-left: 80px;
+}
+
+.reviews__text {
+    margin-bottom: 25px;
+
+    font-family: 'Cardo', sans-serif;
+    font-style: italic;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.reviews__author {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/* скачать
+===============*/
+
+.download {
+    margin: 90px 0;
+
+    text-align: center;
+}
+
+.download__title {
+    margin-bottom: 10px;
+
+    font-size: 28px;
+    color: #2d3033;
+    font-weight: 300;
+}
+
+.download__text {
+    margin-bottom: 30px;
+
+    font-size: 13px;
+    color: #2d3033;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+/* Подвал сайта
+===============*/
+
+.footer{
+    background-color: #050c2b;
+    height: 200px;
+    background: url(img/footer.jpg) no-repeat center;
+
+
+    position: relative;/*относительное позиционирование*/
+    width: 100%;/*на всю ширину*/
+    padding: 20px 50px;/*поля для контента*/
+    
+    display: flex;
+    justify-content: center;/*в центре по горизонтали*/
+    align-items: center;/*в центре по вертикали*/
+    flex-direction: column;
+    margin-top: 100px;/*отступ сверху*/
+}
+
+footer .wave{
+    position: absolute;/*абсолютное позиционирование*/
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-size: 1000px 100px;/*ширина и высота волны*/
+}
+.social,
+.menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;/*разрешен перенос на новую строку*/
+    
+}
+.social li,
+.menu li{
+    list-style: none;/*удалить черные маркеры*/
+}
+.social li a {
+    font-size: 2em;/*размер иконок*/
+    color: #fff;/*цвет иконок*/
+    margin: 0 10px;
+    display: inline-block;/*отображать как строчно-блочный элемент*/
+    transition: 0.5s;/*плавный переход*/
+}
+.menu li a {
+    font-size: 1.2em;/*размер ссылок меню*/
+    color: #fff;/*цвет ссылок меню*/
+    opacity: 0.75;/*значение прозрачности*/
+    margin: 0 15px;
+    text-decoration: none;/*ссылка без подчеркивания*/
+    display: inline-block;
+}
+.menu li a:hover {
+    opacity: 1;
+}
+footer p {
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.1em;
+}    
+
+
+
+
+/* Преподаватели
+===============*/
+
+.team{
+    margin: 100px 0;
+    
+}
+
+.team__inner{
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.team__item{
+    width: 25%;
+    
+    padding: 0 20px;
+    margin-bottom: -20px;
+    margin-top: 30px;
+}
+
+.team__photo{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.team__name{
+    font-size: 22px;
+    color: #050c2b;
+    margin-bottom: 8px;
+    
+}
+
+.team__prof{
+    color: #007bff;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: 700;
+    
+}
+
+.team__text{
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6c7279;
+}
+
+/* Колледж
+===============*/
+
+.college__title{
+    color: #050c2b;
+    margin-top: 10px;
+    font-size: 35px;
+}
+
+.college__subtitle{
+    color: #050c2b;
+    font-size: 24px;
+    margin-top: 10px;
+    
+}
+
+
+
+
+
+
+.college__img{
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 10px;
+    
+    
+}
+
+
+/* burger 
+===============*/
+
+.burger{
+    display: none;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    padding: 9px 2px;
+}
+
+.burger__item{
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #FFF;
+    margin: 3px;
+    opacity: 0.8;
+    position: relative;
+    
+}
+
+.burger__item:hover{
+    background-color: #FFF;
+}
+
+
+
+
